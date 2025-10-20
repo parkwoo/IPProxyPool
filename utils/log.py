@@ -47,8 +47,8 @@ class Logger(object):
 logger = Logger().logger
 
 if __name__ == '__main__':
-    logger.debug("调试信息")
-    logger.info("状态信息")
-    logger.warning("警告信息")
-    logger.error("错误信息")
-    logger.critical("严重错误信息")
+    logger.debug("Debug information")
+    logger.info("Status information")
+    logger.warning("Warning information")
+    logger.error("Error information")
+    logger.critical("Critical error information")
