@@ -1,0 +1,6 @@
+requests
+lxml
+pymongo
+flask
+schedule
+gevent
