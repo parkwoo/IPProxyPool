@@ -4,3 +4,4 @@ pymongo
 flask
 schedule
 gevent
+retrying

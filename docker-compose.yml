@@ -17,6 +17,7 @@ services:
     command: python main.py
     environment:
       - WEB_API_PORT=16888 # READMEに記載のポート
+      - MONGO_URL=mongodb://mongodb:27017 # Docker内でのMongoDB接続
     volumes:
       - .:/app
     depends_on:

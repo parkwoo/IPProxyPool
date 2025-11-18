@@ -1,4 +1,5 @@
 import logging
+import os
 
 # 代理池中代理IP的默认评分
 MAX_SCORE = 50
@@ -13,7 +14,7 @@ LOG_FILENAME = 'log.log'    # 默认日志文件名称
 TIMEOUT = 10
 
 # MongoDB
-MONGO_URL = 'mongodb://localhost:27017'
+MONGO_URL = os.getenv('MONGO_URL', 'mongodb://localhost:27017')
 DATABASE = 'proxies_pool'
 COLLECTION = 'proxies'
 
